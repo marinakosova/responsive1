@@ -1,0 +1,587 @@
+/* media queries */
+
+@media screen and (max-width: 1200px) {
+    .banner-text {
+        transform: translate(-50%, 100%);
+    }
+
+    #logo {
+        margin-left:auto;
+    }
+
+    .nav-menu {
+        margin-right:auto;
+    }
+
+    .banner-text a {
+        margin-right: 0;
+    }
+
+    .services {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .about-us-container {
+        text-align:center;
+    }
+
+    .about-us .about-us-left {
+        margin: 0 23px 0;
+        text-align: justify;
+    }
+
+    .single-client-logo {
+        padding-right: 0;
+    }
+
+    .contact-addresses {
+        text-align: center;
+    }
+
+    .block-text {
+        margin-right: 20px;
+        text-align: justify;
+    }
+
+    .contact-form {
+        margin-left: 45px;
+    }
+
+    #submit {
+        margin-left: 66px;
+    }
+}
+
+@media screen and (max-width: 1155px) {
+    #submit {
+        float: none;
+        margin-left: 0;
+    }
+
+    .contact-form .form-note {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .container {
+        justify-content: space-evenly; 
+    }
+
+    .slick-slide img {
+        max-width: 100%;
+        float: none;
+        margin: 0 auto;
+        min-height: 100%;
+        height: auto;
+    }
+
+    .about-us-overlay {
+        margin: 0 auto;
+        max-width: 100%;
+        min-height: auto;
+        height: 252px;
+    }
+
+    .about-us-overlay2 {
+        min-height: auto;
+    }
+    
+    .slick-slide {
+        margin: 0 40px;
+    }
+}
+
+@media screen and (max-width: 1055px) {
+    input[type=text] {
+        width: 92%;
+    }
+
+    textarea {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .about-us-overlay2 {
+        height: 252px;
+    }
+
+    .clients-logo {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    #reviews {
+        width: 100%;
+    }
+
+    .slick-initialized .slick-slide {
+        width: 900px;
+    }
+
+    #reviews .slick-list {
+        margin: 0 auto;
+    }
+
+    #reviews .slick-list h3 {
+        padding-bottom: 5%;
+         
+    }
+
+    #reviews {
+        padding-top: 5%;
+       
+    }
+}
+
+@media screen and (max-width: 956px) {
+    .date {
+       display: block;
+       margin-left: 40%;
+    }
+
+    .post-content {
+        text-align: center;
+        display: block;
+    }
+   
+    .read-more {
+        margin-left: 40%;
+    } 
+}
+
+@media screen and (max-width: 917px) {
+    .small-banner-text h2 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 857px) {
+    .small-banner-text h2 {
+        font-size: 26px;
+    }
+
+    .single-client-logo {
+        width: 20%; 
+    }
+}
+
+@media screen and (max-width: 839px) {
+    .flex {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logo {
+        margin: 40px auto 0;
+    }
+
+    .nav-menu {
+     margin: 40px auto 0;
+    }
+ 
+    .nav-menu a {
+     margin-left: 20px;
+    }
+
+    .nav-menu a:first-child {
+        margin-left: 0;
+       }
+
+    .services {
+        padding-bottom: 50px;
+    }
+
+    .subtitle {
+        margin: auto;
+    }
+
+    .services-left, 
+    .services-center, 
+    .services-right {
+        width: 60%;
+    }
+
+    .services-right .support {
+        margin-left: 0;
+    }
+
+    .services .fa-font {
+    margin: 0 auto 0;
+    }
+
+    .services .fa-code {
+        margin: 0 auto 0;
+    }
+
+    .services .fa-life-ring {
+        margin: 0 auto 0;
+    }
+
+    .services-block-subtitle {
+        padding-bottom: 50px;
+        text-align: justify;
+        text-align:center;
+    }
+
+    .services-left .typography {
+        margin-right: 0;
+    }
+
+    .services-center .code {
+        margin-right: 0;
+    }
+
+    .services .clean-typography, 
+    .services .rock-solid-code, 
+    .services .expert-support {
+        margin-top: 10px;
+    }
+
+    .services .services-block-title {
+        margin: 10px auto 10px;
+    }
+
+    .about-us .about-us-left {
+        width: 90%;
+        margin: auto ;
+        padding-bottom: 30px;
+        text-align: justify;
+    }
+
+    .latest-works .bottomnav a:last-child {
+        padding-right: 0;
+    }
+
+    .latest-works .bottomnav {
+        margin-left: 0;
+    }
+
+    #reviews .slick-slide {
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
+    .blog-post {
+        text-align: center;
+    }
+
+    .post-image-mr {
+        width: 100%;
+        height: auto;
+    }
+
+    .post-content {
+        margin-left: 0;
+    }
+
+    .date {
+        margin: 20px auto;
+        display: block;
+    }
+
+    .block-text {
+        margin: auto;
+        width: 90%;
+        text-align: justify;
+    }
+
+    .read-more {
+        margin: 30px auto 0;
+    }
+
+    .clients-logo {
+        width: 90%;
+        margin: 0 auto; 
+        padding-bottom: 59px;
+    }  
+
+    #reviews {
+        width: 90%;
+    }
+
+    .slick-initialized .slick-slide {
+        width: 700px;
+    }
+
+    #reviews .slick-list {
+        margin: 0 auto;
+    }
+
+    .contact-form {
+        width: 100%;
+        justify-content: center;
+        margin-top: 40px;
+        margin: 0 auto;
+    }
+
+    .contact-addresses {
+        margin-bottom: 40px;
+    }
+
+    .contact-addresses ul li:nth-child(2) {
+        padding-left: 0;
+    }
+
+    .contact-addresses ul li:nth-child(3) {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 797px) {
+    .small-banner-text h2 {
+        font-size: 24px;
+    }
+
+    .banner-text p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .small-banner-text {
+        transform: translate(-50%, 40%);
+    }
+
+    .slick-initialized .slick-slide {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 715px) {
+    .banner-text {
+        transform: translate(-50%, 80%);
+    }
+}
+
+@media screen and (max-width: 693px) {
+    .small-banner-text {
+        transform: translate(-50%, 30%);
+    }
+}
+
+@media screen and (max-width: 637px) {
+    .banner-text {
+        transform: translate(-50%, 60%);
+    }
+
+    .services-block-subtitle {
+        text-align: justify;
+    }
+
+    .subtitle {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 591px) {
+    .slick-initialized .slick-slide {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .nav-menu a {
+        display: block;
+        margin-top: 10px;
+     }
+
+     .nav-menu a {
+         margin-left: 0;
+        text-align: center;
+     }
+
+     .banner-text {
+        transform: translate(-50%, 30%);
+    }
+
+    .nav-menu {
+        margin-top: 20px;
+    }
+
+    .latest-works .bottomnav a {
+        padding-right: 15px;
+    } 
+    
+    input[type=text] {
+        text-align: center;
+    }
+
+    textarea {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .slick-initialized .slick-slide {
+        width: 400px;
+    }
+
+    .latest-works .bottomnav a {
+        padding-right: 10px;
+    }
+
+    .latest-works .bottomnav a:last-child {
+        padding-right: 0;
+    }
+
+    .clients-logo {
+        flex-direction:column;
+        padding: 0;
+    }
+
+    .single-client-logo {
+        display:block;
+        margin: 0 auto;
+        width: 25%;
+        height:auto;
+        padding: 0;
+    }
+
+    #reviews .slick-list h3 {
+        font-size: 15px;
+        padding-bottom: 0;   
+    }
+
+    #reviews .slick-list h2 {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    textarea {
+        width: 88%;
+    }
+}
+
+@media screen and (max-width: 421px) {
+    .latest-works .bottomnav a {
+        display: block;
+        padding-right: 0;
+    }
+
+    .services-left, 
+    .services-center, 
+    .services-right {
+        width: 90%;
+    }
+
+    .latest-works .bottomnav a {
+        display: block;
+        margin: 3% 0;
+    }
+
+    .latest-works hr {
+        margin: 0 auto;
+        width: 4%;
+        padding-left: 5px;
+    }
+
+    .single-client-logo {
+        width: 30%;
+    }
+}   
+
+@media screen and (max-width: 403px) {
+    .slick-initialized .slick-slide {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 387px) {
+    .small-banner-text {
+        transform: translate(-50%, 20%);
+    }
+
+    .post-content h2 {
+        font-size: 14px;
+    }
+
+    .banner-text h1 {
+        font-size: 44px;
+    }
+
+    .small-banner-text h2 {
+        font-size: 22px;
+    }
+
+    .button {
+        font-size: 14px;
+    }
+
+    .small-banner-text {
+        transform: translate(-50%, 30%);
+    }
+
+    .small-banner-text a {
+    padding: 14px 25px;
+    }
+
+    .banner-text a {
+        padding: 14px 25px;
+    }
+
+    .image-item .image {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .image-item:hover {
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .small-banner-text {
+        transform: translate(-50%, 25%);
+    }
+
+    #reviews .slick-list h3 {
+        margin: 15px auto;
+    }
+
+    input[type=text] {
+        width: 90%;
+    }
+
+     textarea {
+        width: 85%;
+    }
+    .slick-initialized .slick-slide {
+        width: 250px;
+    }
+
+    #reviews .slick-list h2 {
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 349px) {
+    .small-banner-text h2 {
+        font-size: 19px;
+    }
+
+    .small-banner-text a {
+    padding: 14px 23px;
+    }
+
+    .small-banner-text {
+        transform: translate(-50%, 40%);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .single-client-logo {
+        width: 33%;
+    }
+
+     #reviews .slick-list h3 {
+         font-size: 15px;
+     }
+}
